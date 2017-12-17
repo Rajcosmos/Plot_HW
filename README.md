@@ -2,9 +2,10 @@
 
 ```python
 #### Observations
-### 1. 
-###
-###
+### 1. Based on scatter plots, Urban has highest % drivers count per city including fares and number of rides.
+### 2. BAsed on Bubble plots, avarage fares in Urban are lower than Sub Urban and Rural. 
+### 3. Based on Bubble plots, average fares is indirectly proportional to total number of rides per city. More total number of rides per 
+###   city less avarage fares. This means drivers can more money in rural areas where number of rides are less.
 ###
 ###
 #########################Please note DYLAN is fine with me in using SEABORN for Bubble Plot - RAJAT #####################
