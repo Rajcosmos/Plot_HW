@@ -1,7 +1,13 @@
 
 
 ```python
-#########################PLEASE NOTE DYLAN IS OK FOR ME TO USE SEABORN - RAJAT #####################
+#### Observations
+### 1. 
+###
+###
+###
+###
+#########################Please note DYLAN is fine with me in using SEABORN for Bubble Plot - RAJAT #####################
 #Import Dependencies
 import pandas as pd
 import numpy as np
@@ -184,13 +190,8 @@ city_ride=city_ride[["city","date","fare","ride_id","driver_count","type"]]
 
 
 ```python
-#Buble plot of ride sharing data
-#df.plot.scatter(x='a', y='b', s=df['c']*200);
-#Your objective is to build a Bubble Plot that showcases the relationship between four key variables:
-#y=Average Fare ($) Per City
-#x=Total Number of Rides Per City
-#buble_size=Total Number of Drivers Per City
-#colors=City Type (Urban, Suburban, Rural)
+# Buble plot of ride sharing data
+
 ```
 
 
@@ -227,11 +228,8 @@ df_per_city.max()
 
 
 ```python
-#x1_axis=df_per_city[df_per_city['type'] == "Rural"]["Rides"]
-#y1_axis=df_per_city[df_per_city['type'] == "Rural"]["Average fare"]
-#z1_axis=df_per_city[df_per_city['type'] == "Rural"]["driver_count"]
-#df_per_city.plot(kind='scatter',x=df_per_city["Rides"],y=df_per_city["Average fare"],s=df_per_city["driver_count"])
 colors={"Urban":'lightskyblue',"Suburban":'lightcoral',"Rural":'gold'}
+#Test sns ignore below line.
 #sns.lmplot('Rides','Average fare',data=df_per_city,fit_reg=False,hue='type',palette=colors,size=5)
 bins=[0,30,60,80]
 sizes=[100,200,300]
